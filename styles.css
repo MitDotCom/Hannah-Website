@@ -14,8 +14,8 @@ body {
 }
 
 #body h1 {
-  margin: 1rem auto;
-  animation: neon 1s ease infinite;
+  margin-top: 1rem auto;
+  animation: neon 2s ease infinite;
 }
 
 @keyframes neon {
