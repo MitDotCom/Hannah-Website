@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(#aed4ff, #e66465);
+}
+
+#body {
+  display: flex;
+  height: 100vh;
+  background-image: url("./kiki's\ delivery\ service\ anime\ wallpaper.jpg");
+  opacity: 0.8;
+}
+
+.heading {
+  display: flex;
+  justify-self: center;
+}
