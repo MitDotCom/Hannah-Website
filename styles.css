@@ -5,15 +5,16 @@ body {
 }
 
 #body {
-  display: flex;
-  justify-content: center;
+  justify-self: center;
   height: 100vh;
-  background-image: url("./kiki's\ delivery\ service\ anime\ wallpaper.jpg");
+  background-image: url("./images/kiki's\ delivery\ service\ anime\ wallpaper.jpg");
   opacity: 0.8;
   font-family: "Play", sans-serif;
 }
 
 #body h1 {
+  display: flex;
+  justify-content: center;
   margin-top: 1rem auto;
   animation: neon 2s ease infinite;
 }
@@ -30,4 +31,29 @@ body {
       0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
     color: #eda0d3;
   }
+}
+
+#image-gallery {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+#image-thumbs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
 }
